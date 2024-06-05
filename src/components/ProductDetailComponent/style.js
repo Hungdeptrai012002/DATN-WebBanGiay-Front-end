@@ -66,11 +66,12 @@ export const WrapperQualityProduct = styled.div`
 
 export const WrapperInputNumber = styled(InputNumber)`
     &.ant-input-number.ant-input-number-sm{
-        width:'40px';
+        width:'20px' !important;
         border-bottom: none;
         border-top: none;
-    }
-    &.ant-input-number-handler-wrap{
-        display: none;
+    
+        .ant-input-number-handler-wrap{
+            display: none;
+        }
     }
 `;

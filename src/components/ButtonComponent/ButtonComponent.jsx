@@ -8,7 +8,8 @@ const ButtonComponent = ({size, bordered, styleButton, styleTextButton, textButt
         style={styleButton} 
         {...rests}
     >
-        <span style={styleTextButton}>{textButton}</span> </Button>
+        <span style={styleTextButton}>{textButton}</span>
+    </Button>
   )
 }
 
